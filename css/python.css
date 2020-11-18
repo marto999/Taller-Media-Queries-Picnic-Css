@@ -1,0 +1,39 @@
+@media only screen and (max-width: 920px) {
+    header {
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .search-box {
+        margin: 0;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    nav {
+        margin: 0;
+        display: flex;
+        width: auto;
+        flex-direction: column;
+    }
+    .top-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .left-content {
+        margin: 16px;
+    }
+    .right-content {
+        margin: 16px;
+    }
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
